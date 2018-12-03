@@ -1,0 +1,1 @@
+python -m pip install [name of module] --trusted-host pypi.org

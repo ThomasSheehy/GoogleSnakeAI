@@ -1,0 +1,16 @@
+LOGIC FOR SNAKE:
+
+		Current situation:
+		The code identifies lines, it doesn't know what to do with them nor can it recognise them at the
+		moment.
+
+		Firstly needs to identify different distances towards lines/walls/boundaries (the snake moves in
+		squares so distance to wall could decrease from 5 [squares] to 4 to 3 to 2 to 1 to 0 before the 
+		snake hits the wall)
+
+		Movement of snake is already inputted so just need a logic to code and for the if statements to
+		state as well as mathematcis stating distances to each boundary and so where the snake should move.
+
+		Need an if statement saying if distance to line is > 1, then move away from the line, following
+		this logic, the snake should in theory not be able to bump into a boundary unless it is a corner
+		or it's own body when it traps itself.
